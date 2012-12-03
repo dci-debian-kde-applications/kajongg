@@ -1,0 +1,23 @@
+Source: kajongg
+Priority: extra
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+Build-Depends: cmake,
+               debhelper (>= 8.0.0),
+               kdelibs5-dev (>= 4:4.9.80),
+               libkdegames-dev (>= 4:4.9.80),
+               pkg-kde-tools
+Standards-Version: 3.9.3
+Section: libs
+Homepage: http://www.kde.org
+
+Package: kajongg
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}, python-twisted-core (>= 8.2.0),
+ python-qt4-sql (>= 4.6), python-kde4 (>= 4.3.0), libsqlite3-0 (>= 3.5.0),
+ libqt4-sql-sqlite (>= 4.6), kdegames-mahjongg-data, vorbis-tools, kdegames-data
+Description: classical Mah Jongg game
+ This is the classical Mah Jongg for four players.
+ If you are looking for the Mah Jongg solitaire please use the application
+ kmahjongg.
+ .
+ This package is part of the KDE games module.
