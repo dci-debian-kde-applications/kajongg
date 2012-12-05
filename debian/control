@@ -5,7 +5,11 @@ Build-Depends: cmake,
                debhelper (>= 8.0.0),
                kdelibs5-dev (>= 4:4.9.80),
                libkdegames-dev (>= 4:4.9.80),
-               pkg-kde-tools
+               pkg-kde-tools,
+               pkg-config,
+               python-kde4,
+               libsqlite3-dev,
+               python-twisted,
 Standards-Version: 3.9.3
 Section: libs
 Homepage: http://www.kde.org
