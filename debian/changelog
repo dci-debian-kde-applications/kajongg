@@ -1,6 +1,6 @@
-kajongg (4:4.9.90-0ubuntu1) UNRELEASED; urgency=low
+kajongg (4:4.9.90-0ubuntu1) raring-proposed; urgency=low
 
   * Initial release
   * Add build-deps on runtime dependencies, needed to install
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 03 Dec 2012 17:39:41 +0000
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 07 Dec 2012 17:36:05 +0000
