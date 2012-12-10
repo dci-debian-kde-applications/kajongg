@@ -11,7 +11,7 @@ Build-Depends: cmake,
                libsqlite3-dev,
                python-twisted,
 Standards-Version: 3.9.3
-Section: libs
+Section: games
 Homepage: http://www.kde.org
 
 Package: kajongg
