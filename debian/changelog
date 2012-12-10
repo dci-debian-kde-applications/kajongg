@@ -1,4 +1,4 @@
-kajongg (4:4.9.90-0ubuntu2) UNRELEASED; urgency=low
+kajongg (4:4.9.90-0ubuntu2) raring; urgency=low
 
   * Add breaks/replaces against kdegames-mahjongg-data << 4:4.9.90 
 
