@@ -1,3 +1,9 @@
+kajongg (4:4.9.97-0ubuntu1) UNRELEASED; urgency=low
+
+  * New upstream release candidate
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Thu, 03 Jan 2013 21:11:00 +0100
+
 kajongg (4:4.9.95-0ubuntu1) raring; urgency=low
 
   * Install to /usr/games
