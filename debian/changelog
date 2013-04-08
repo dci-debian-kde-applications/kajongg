@@ -1,3 +1,9 @@
+kajongg (4:4.10.2-2) UNRELEASED; urgency=low
+
+  * Fix erroneous Upstream-Name in debian/copyright.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 08 Apr 2013 14:08:24 +0200
+
 kajongg (4:4.10.2-1) experimental; urgency=low
 
   * First release of kdegames after being split by upstream.
