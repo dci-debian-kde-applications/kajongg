@@ -1,0 +1,168 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: bomber
+Upstream-Contact: Albert Astals Cid <aacid@kde.org>
+                  Wolfgang Rohdewald <wolfgang@rohdewald.de>
+Source: http://www.kde.org/download/
+
+Files: *
+Copyright: 2008-2012, Mathias Kraus <k.hias@gmx.de>
+License: GPL-2+
+
+Files: doc/*
+Copyright: 2009, Mathias Kraus <k.hias@gmx.de>
+License: GFDL-1.2+
+
+Files: *.png *.svgz
+Copyright: 2009, Mathias Kraus <k.hias@gmx.de>
+           2009, Arturo Silva <jasilva28@gmail.com>
+License: GPL-2+
+
+Files: src/arena.cpp
+       src/arena.h
+       src/arenaitem.cpp
+       src/arenaitem.h
+       src/bomb.cpp
+       src/bomb.h
+       src/character.cpp
+       src/character.h
+       src/mainwindow.cpp
+       src/mainwindow.h
+Copyright: 2008,2009, Mathias Kraus <k.hias@gmx.de>
+           2007-2008, Thomas Gallinari <tg8187@yahoo.fr>
+           2007-2008, Pierre-Benoît Besse <besse.pb@gmail.com>
+License: GPL-2+
+
+Files: src/block.cpp
+Copyright: 2009, Mathias Kraus <k.hias@gmx.de>
+           2007-2008, Thomas Gallinari <tg8187@yahoo.fr>
+           2007-2008, Gaël Courcelle <gael.courcelle@gmail.com>
+           2007-2008, Alexia Allanic <alexia_allanic@yahoo.fr>
+License: GPL-2+
+
+Files: src/block.h
+Copyright: 2007-2008, Thomas Gallinari <tg8187@yahoo.fr>
+           2007-2008, Gaël Courcelle <gael.courcelle@gmail.com>
+           2007-2008, Alexia Allanic <alexia_allanic@yahoo.fr>
+License: GPL-2+
+
+Files: src/bombexplosionitem.cpp
+       src/bombexplosionitem.h
+       src/bombitem.cpp
+       src/bombitem.h
+       src/cell.cpp
+       src/cell.h
+       src/characteritem.cpp
+       src/characteritem.h
+       src/element.cpp
+       src/element.h
+       src/elementitem.cpp
+       src/elementitem.h
+       src/gameview.cpp
+       src/gameview.h
+       src/main.cpp
+       src/player.cpp
+       src/player.h
+       src/playeritem.h
+Copyright: 2009, Mathias Kraus <k.hias@gmx.de>
+           2007-2008, Thomas Gallinari <tg8187@yahoo.fr>
+License: GPL-2+
+
+Files: src/bonus.cpp
+       src/bonus.h
+Copyright: 2007-2008, Thomas Gallinari <tg8187@yahoo.fr>
+           2007-2008, Gaël Courcelle <gael.courcelle@gmail.com>
+           2007-2008, Alexia Allanic <alexia_allanic@yahoo.fr>
+           2007-2008, Johann Hingue <yoan1703@hotmail.fr>
+License: GPL-2+
+
+Files: src/game.cpp
+Copyright: 2009, Mathias Kraus <k.hias@gmx.de>
+           2007-2008, Thomas Gallinari <tg8187@yahoo.fr>
+           2007-2008, Pierre-Benoit Besse <besse@gmail.com>
+           2007-2008, Alexandre Galinier <alex.galinier@hotmail.com>
+License: GPL-2+
+
+Files: src/game.h
+       src/gamescene.cpp
+       src/gamescene.h
+Copyright: 2009, Mathias Kraus <k.hias@gmx.de>
+           2007-2008, Thomas Gallinari <tg8187@yahoo.fr>
+           2007-2008, Alexandre Galinier <alex.galinier@hotmail.com>
+License: GPL-2+
+
+Files: src/mapparser.cpp
+Copyright: 2008, Mathias Kraus <k.hias@gmx.de>
+           2007-2008, Nathalie Liesse <nathalie.liesse@gmail.com>
+License: GPL-2+
+
+Files: src/mapparser.h
+       src/playeritem.cpp
+Copyright: 2008,2009, Mathias Kraus <k.hias@gmx.de>
+           2007-2008, Thomas Gallinari <tg8187@yahoo.fr>
+           2007-2008, Nathalie Liesse <nathalie.liesse@gmail.com>
+License: GPL-2+
+
+Files: src/config/arenaselector.cpp
+       src/config/arenaselector.h
+       src/config/arenasettings.cpp
+       src/config/arenasettings.h
+Copyright: 2009, Mathias Kraus <k.hias@gmx.de>
+           2007, Matt Williams <matt@milliams.com>
+           2006,2007, Mauricio Piacentini <mauricio@tabuleiro.com>
+License: GPL-2+
+
+Files: src/config/playerselector.cpp
+       src/config/playerselector.h
+Copyright: 2012, Mathias Kraus <k.hias@gmx.de>
+           2009-2012, Stefan Majewsky <majewsky@gmx.net>
+License: LGPL-2
+
+Files: debian/*
+Copyright: 2007-2013, Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+License: GPL-2+
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the 
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General Public
+ License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: GFDL-1.2+
+ Permission is granted to copy, distribute and/or modify this document
+ under the terms of the GNU Free Documentation License, Version 1.2
+ or any later version published by the Free Software Foundation;
+ with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+ A copy of the license is included in the section entitled "GNU
+ Free Documentation License".
+ .
+ On Debian systems, the complete text of the GNU Free Documentation
+ License version 1.2 can be found in "/usr/share/common-licenses/GFDL-1.2".
+
+License: LGPL-2
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License verion 2 as published by the Free Software Foundation.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public
+ License along with this library; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+ .
+ On Debian systems, the complete text of the GNU Library General Public
+ License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+

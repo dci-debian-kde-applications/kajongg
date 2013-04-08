@@ -1,0 +1,6 @@
+kajongg (4:4.10.2-1) experimental; urgency=low
+
+  * First release of kdegames after being split by upstream.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 08 Apr 2013 09:23:12 +0200
+
