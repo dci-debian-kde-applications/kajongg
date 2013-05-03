@@ -5,7 +5,10 @@ Upstream-Contact: Wolfgang Rohdewald <wolfgang@rohdewald.de>
 Source: http://www.kde.org/download/
 
 Files: *
-Copyright: 2009-2012, Wolfgang Rohdewald <wolfgang@rohdewald.de>
+Copyright: 1997, Mathias Mueller <in5y158@public.uni-hamburg.de>
+           2006, Mauricio Piacentini <mauricio@tabuleiro.com>
+           2007-2008, Qtrac Ltd
+           2008-2012, Wolfgang Rohdewald <wolfgang@rohdewald.de>
 License: GPL-2+
 
 Files: doc/*
@@ -16,29 +19,6 @@ Files: cmake-modules/*
 Copyright: 2010, Wolfgang Rohdewald <wolfgang@rohdewald.de>
 License: BSD-3-clause
 
-Files: src/background.py
-       src/tileset.py
-Copyright: 1997, Mathias Mueller <in5y158@public.uni-hamburg.de>
-           2006, Mauricio Piacentini <mauricio@tabuleiro.com>
-           2008-2011, Wolfgang Rohdewald <wolfgang@rohdewald.de>
-License: GPL-2+
-
-Files: src/backgroundselector.py
-       src/config.py
-       src/guiutil.py
-       src/query.py
-       src/rulesetselector.py
-       src/tilesetselector.py
-       src/tree.py
-Copyright: 2006, Mauricio Piacentini <mauricio@tabuleiro.com>
-           2008-2012, Wolfgang Rohdewald <wolfgang@rohdewald.de>
-License: GPL-2+
-
-Files: src/genericdelegates.py
-Copyright: 2007-2008, Qtrac Ltd
-           2008-2011, Wolfgang Rohdewald <wolfgang@rohdewald.de>
-License: GPL-2+
-
 Files: src/modeltest.py
 Copyright: 2007, Trolltech ASA
            2010-2012, Wolfgang Rohdewald <wolfgang@rohdewald.de>
@@ -47,46 +27,44 @@ License: GPL-2
 Files: src/qt4reactor.py
 Copyright: 2001-2008, Twisted Matrix Laboratories
            2009-2012, Wolfgang Rohdewald <wolfgang@rohdewald.de>
-License: MIT
- Copyright (c) 2001-2013
- Allen Short
- Andy Gayton
- Andrew Bennetts
- Antoine Pitrou
- Apple Computer, Inc.
- Benjamin Bruheim
- Bob Ippolito
- Canonical Limited
- Christopher Armstrong
- David Reid
- Donovan Preston
- Eric Mangold
- Eyal Lotem
- Itamar Turner-Trauring
- James Knight
- Jason A. Mobarak
- Jean-Paul Calderone
- Jessica McKellar
- Jonathan Jacobs
- Jonathan Lange
- Jonathan D. Simms
- JÃŒrgen Hermann
- Kevin Horn
- Kevin Turner
- Mary Gardiner
- Matthew Lefkowitz
- Massachusetts Institute of Technology
- Moshe Zadka
- Paul Swartz
- Pavel Pergamenshchik
- Ralph Meijer
- Sean Riley
- Software Freedom Conservancy
- Travis B. Hartwell
- Thijs Triemstra
- Thomas Herve
- Timothy Allen
- .
+           2001-2013, Allen Short
+           2001-2013, Andy Gayton
+           2001-2013, Andrew Bennetts
+           2001-2013, Antoine Pitrou
+           2001-2013, Apple Computer, Inc.
+           2001-2013, Benjamin Bruheim
+           2001-2013, Bob Ippolito
+           2001-2013, Canonical Limited
+           2001-2013, Christopher Armstrong
+           2001-2013, David Reid
+           2001-2013, Donovan Preston
+           2001-2013, Eric Mangold
+           2001-2013, Eyal Lotem
+           2001-2013, Itamar Turner-Trauring
+           2001-2013, James Knight
+           2001-2013, Jason A. Mobarak
+           2001-2013, Jean-Paul Calderone
+           2001-2013, Jessica McKellar
+           2001-2013, Jonathan Jacobs
+           2001-2013, Jonathan Lange
+           2001-2013, Jonathan D. Simms
+           2001-2013, Jörgen Hermann
+           2001-2013, Kevin Horn
+           2001-2013, Kevin Turner
+           2001-2013, Mary Gardiner
+           2001-2013, Matthew Lefkowitz
+           2001-2013, Massachusetts Institute of Technology
+           2001-2013, Moshe Zadka
+           2001-2013, Paul Swartz
+           2001-2013, Pavel Pergamenshchik
+           2001-2013, Ralph Meijer
+           2001-2013, Sean Riley
+           2001-2013, Software Freedom Conservancy
+           2001-2013, Travis B. Hartwell
+           2001-2013, Thijs Triemstra
+           2001-2013, Thomas Herve
+           2001-2013, Timothy Allen
+License: Expat
  Permission is hereby granted, free of charge, to any person obtaining
  a copy of this software and associated documentation files (the
  "Software"), to deal in the Software without restriction, including
