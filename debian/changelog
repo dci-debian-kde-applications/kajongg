@@ -3,6 +3,7 @@ kajongg (4:4.10.2-2) experimental; urgency=low
   * Fix erroneous Upstream-Name in debian/copyright.
   * Simplify debian/copyright.
   * Reshuffle build-dependencies to reduce resolver tries.
+  * Add a basic manpage.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 03 May 2013 15:42:09 +0200
 
