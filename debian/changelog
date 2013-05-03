@@ -1,10 +1,10 @@
-kajongg (4:4.10.2-2) UNRELEASED; urgency=low
+kajongg (4:4.10.2-2) experimental; urgency=low
 
   * Fix erroneous Upstream-Name in debian/copyright.
   * Simplify debian/copyright.
   * Reshuffle build-dependencies to reduce resolver tries.
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 08 Apr 2013 14:08:24 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 03 May 2013 15:42:09 +0200
 
 kajongg (4:4.10.2-1) experimental; urgency=low
 
