@@ -1,8 +1,8 @@
-kajongg (4:4.10.4-0ubuntu1) UNRELEASED; urgency=low
+kajongg (4:4.10.4-0ubuntu1) saucy-proposed; urgency=low
 
   * New upstream release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 06 Jun 2013 13:53:36 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 06 Jun 2013 23:35:40 +0100
 
 kajongg (4:4.10.2-0ubuntu1) raring; urgency=low
 
