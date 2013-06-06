@@ -1,3 +1,9 @@
+kajongg (4:4.10.4-0ubuntu1) UNRELEASED; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 06 Jun 2013 13:53:36 +0100
+
 kajongg (4:4.10.2-0ubuntu1) raring; urgency=low
 
   * New upstream bugfix release
