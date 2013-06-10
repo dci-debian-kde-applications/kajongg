@@ -1,3 +1,10 @@
+kajongg (4:4.10.4-0ubuntu2) saucy; urgency=low
+
+  * Depend on kdegames-mahjongg-data instead of libkmahjongglib-data which
+    doesn't exist anymore (LP: #1189431) 
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Mon, 10 Jun 2013 14:34:52 +0200
+
 kajongg (4:4.10.4-0ubuntu1) saucy-proposed; urgency=low
 
   * New upstream release
