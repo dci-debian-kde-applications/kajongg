@@ -5,8 +5,9 @@ kajongg (4:4.10.80-0ubuntu1) UNRELEASED; urgency=low
 
   [ Jonathan Riddell ]
   * Use --with=python2
+  * New upstream release
 
- -- Rohan Garg <rohangarg@kubuntu.org>  Thu, 13 Jun 2013 09:04:36 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 20 Jun 2013 23:48:42 +0100
 
 kajongg (4:4.10.4-0ubuntu2) saucy; urgency=low
 
