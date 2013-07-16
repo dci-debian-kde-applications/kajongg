@@ -1,6 +1,11 @@
 kajongg (4:4.10.95-0ubuntu1) UNRELEASED; urgency=low
 
+  [ Rohan Garg ]
   * New upstream RC release
+
+  [ Philip Muškovac ]
+  * Move binaries from /usr/bin to /usr/games by hand as dh_python2 ignores
+    BIN_INSTALL_DIR
 
  -- Rohan Garg <rohangarg@kubuntu.org>  Mon, 15 Jul 2013 10:27:48 +0100
 
