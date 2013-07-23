@@ -1,4 +1,4 @@
-kajongg (4:4.10.95-0ubuntu1) UNRELEASED; urgency=low
+kajongg (4:4.10.95-0ubuntu1) saucy; urgency=low
 
   [ Rohan Garg ]
   * New upstream RC release
@@ -7,7 +7,7 @@ kajongg (4:4.10.95-0ubuntu1) UNRELEASED; urgency=low
   * Move binaries from /usr/bin to /usr/games by hand as dh_python2 ignores
     BIN_INSTALL_DIR
 
- -- Rohan Garg <rohangarg@kubuntu.org>  Mon, 15 Jul 2013 10:27:48 +0100
+ -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 19 Jul 2013 12:31:48 +0000
 
 kajongg (4:4.10.90-0ubuntu1) saucy; urgency=low
 
