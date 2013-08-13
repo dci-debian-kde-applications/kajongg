@@ -1,8 +1,12 @@
 kajongg (4:4.11.0-0ubuntu1) UNRELEASED; urgency=low
 
+  [ Howard Chan ]
   * New upstream release
 
- -- Howard Chan <smartboyhw@gmail.com>  Thu, 08 Aug 2013 11:16:34 +0800
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 13 Aug 2013 23:57:51 +0100
 
 kajongg (4:4.10.97-0ubuntu1) saucy; urgency=low
 
