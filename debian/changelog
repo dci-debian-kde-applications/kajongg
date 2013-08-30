@@ -1,3 +1,9 @@
+kajongg (4:4.11.1-0ubuntu1) UNRELEASED; urgency=low
+
+  * New upstream bugfix release.
+
+ -- Howard Chan <smartboyhw@gmail.com>  Fri, 30 Aug 2013 20:23:59 +0800
+
 kajongg (4:4.11.0-0ubuntu1) saucy; urgency=low
 
   [ Howard Chan ]
