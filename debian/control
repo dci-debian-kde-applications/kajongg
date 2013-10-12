@@ -13,6 +13,8 @@ Build-Depends: cmake,
 Standards-Version: 3.9.3
 Section: games
 Homepage: http://www.kde.org
+Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kajongg
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kajongg
 
 Package: kajongg
 Architecture: all
