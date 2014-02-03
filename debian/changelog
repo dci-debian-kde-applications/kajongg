@@ -1,3 +1,9 @@
+kajongg (4:4.12.2-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Mon, 03 Feb 2014 16:27:26 +0100
+
 kajongg (4:4.12.1-0ubuntu2) trusty; urgency=medium
 
   * Make sure files in the private dir are compiled (LP: #649721)
