@@ -1,3 +1,9 @@
+kajongg (4:4.12.3-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 28 Feb 2014 23:22:56 +0100
+
 kajongg (4:4.12.2-1) experimental; urgency=medium
 
   * Do not disable an empty test set.
