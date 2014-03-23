@@ -1,8 +1,8 @@
-kajongg (4:4.12.95-0ubuntu1) UNRELEASED; urgency=medium
+kajongg (4:4.12.95-0ubuntu1) trusty; urgency=medium
 
   * New upstream beta release
 
- -- Rohan Garg <rohangarg@kubuntu.org>  Thu, 20 Mar 2014 19:56:54 +0100
+ -- Rohan Garg <rohangarg@kubuntu.org>  Sun, 23 Mar 2014 11:56:01 +0100
 
 kajongg (4:4.12.90-0ubuntu1) trusty; urgency=medium
 
