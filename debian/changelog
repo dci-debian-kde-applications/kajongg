@@ -1,3 +1,9 @@
+kajongg (4:4.13.1-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 22 May 2014 16:56:47 +0200
+
 kajongg (4:4.12.4-1) unstable; urgency=medium
 
   * New upstream release.
