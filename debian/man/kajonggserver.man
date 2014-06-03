@@ -1,0 +1,40 @@
+.TH KAJONGGSERVER 6
+.SH NAME
+kajonggserver \- KDE Mah Jongg server
+.SH SYNOPSIS
+.B kajonggserver
+.I [options]
+.SH DESCRIPTION
+.B Kajongg server
+is part of kajongg and allows you to play Mah Jongg games over the network.
+.SH OPTIONS
+.TP
+.B \-h, \-\-help
+Show this help message and exit.
+.TP
+.B \-\-port=PORT
+The server will listen on PORT (8409).
+.TP
+.B \-\-socket=SOCKET
+The server will listen on SOCKET.
+.TP
+.B \-\-db=DBPATH
+Name of the database.
+.TP
+.B \-\-local
+Start a local game server.
+.TP
+.B \-\-continue
+Do not terminate local game server after last client disconnects.
+.TP
+.B \-\-debug=DEBUG
+Set debug options. Pass a comma separated list of options.
+Options are: random, chat, sql, explain, deferredBlock, animationSpeed, scores,
+mahJongg, modelTest, traffic, robbingKong, dangerousGame, sound, robotAI,
+handCache, originalCall, animation, focusable.
+Options animation, focusable take a string argument like animation=s3s4.
+.SH SEE ALSO
+More detailed user documentation is available from
+.BR help:/kajongg
+(either enter this URL into \fBkonqueror\fP, or run `khelpcenter
+help:/kajongg').

@@ -1,3 +1,16 @@
+kajongg (4:4.13.1-1ubuntu1) UNRELEASED; urgency=medium
+
+  * Merge with debian, no remaining changes
+  * Add upstream_install_missing_files.diff to install qt.py, qt4.py and qt5.py
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 03 Jun 2014 18:41:43 +0200
+
+kajongg (4:4.13.1-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 23 May 2014 09:23:31 +0200
+
 kajongg (4:4.13.0-0ubuntu1) trusty; urgency=medium
 
   * New upstream KDE Software Compilation release
@@ -22,11 +35,33 @@ kajongg (4:4.12.90-0ubuntu1) trusty; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 19 Mar 2014 10:36:05 +0000
 
+kajongg (4:4.12.4-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 28 Apr 2014 12:24:41 +0200
+
+kajongg (4:4.12.3-1) experimental; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Mar 2014 00:06:35 +0100
+
 kajongg (4:4.12.3-0ubuntu1) trusty; urgency=medium
 
   * New upstream bugfix release
 
  -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 04 Mar 2014 20:28:47 +0100
+
+kajongg (4:4.12.2-1) experimental; urgency=medium
+
+  * Do not disable an empty test set.
+  * Bump Standards-Version to 3.9.5, no changes needed.
+  * New upstream release.
+  * Add autopkgtests.
+  * Bump kde-sc-dev-latest build dependency.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 10 Feb 2014 11:32:36 +0100
 
 kajongg (4:4.12.2-0ubuntu1) trusty; urgency=medium
 
@@ -69,6 +104,19 @@ kajongg (4:4.11.80-0ubuntu1) trusty; urgency=low
   * New upstream beta release
 
  -- Rohan Garg <rohangarg@kubuntu.org>  Sat, 23 Nov 2013 17:27:09 +0100
+
+kajongg (4:4.11.3-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update build dependencies.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 07 Nov 2013 14:28:34 +0100
+
+kajongg (4:4.11.2-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 07 Oct 2013 15:29:49 +0200
 
 kajongg (4:4.11.2-0ubuntu1) saucy; urgency=low
 
@@ -127,6 +175,19 @@ kajongg (4:4.10.80-0ubuntu1) saucy; urgency=low
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 21 Jun 2013 00:46:37 +0100
 
+kajongg (4:4.10.5-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 12 Jul 2013 16:45:40 +0200
+
+kajongg (4:4.10.4-1) experimental; urgency=low
+
+  * New upstream release.
+  * Update vcs fields.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 14 Jun 2013 16:33:45 +0200
+
 kajongg (4:4.10.4-0ubuntu2) saucy; urgency=low
 
   * Depend on kdegames-mahjongg-data instead of libkmahjongglib-data which
@@ -139,6 +200,21 @@ kajongg (4:4.10.4-0ubuntu1) saucy-proposed; urgency=low
   * New upstream release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 06 Jun 2013 23:35:40 +0100
+
+kajongg (4:4.10.2-2) experimental; urgency=low
+
+  * Fix erroneous Upstream-Name in debian/copyright.
+  * Simplify debian/copyright.
+  * Reshuffle build-dependencies to reduce resolver tries.
+  * Add a basic manpage.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 03 May 2013 15:42:09 +0200
+
+kajongg (4:4.10.2-1) experimental; urgency=low
+
+  * First release of kdegames after being split by upstream.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 08 Apr 2013 13:40:32 +0200
 
 kajongg (4:4.10.2-0ubuntu1) raring; urgency=low
 
@@ -191,3 +267,4 @@ kajongg (4:4.9.90-0ubuntu1) raring-proposed; urgency=low
   * Add build-deps on runtime dependencies, needed to install
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 07 Dec 2012 17:36:05 +0000
+

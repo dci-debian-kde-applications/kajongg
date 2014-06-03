@@ -1,26 +1,92 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: kajongg
-Source: http://kde.org
+Upstream-Contact: Wolfgang Rohdewald <wolfgang@rohdewald.de>
+                  Albert Astals Cid <aacid@kde.org>
+Source: http://www.kde.org/download/
 
 Files: *
-Copyright: 2008,2009,2010,2011,2012 Wolfgang Rohdewald
-           2006 Mauricio Piacentini <mauricio@tabuleiro.com>
-           1997 Mathias Mueller <in5y158@public.uni-hamburg.de>
-           2001-2008 Twisted Matrix Laboratories
-           2007 Trolltech ASA
+Copyright: 1997, Mathias Mueller <in5y158@public.uni-hamburg.de>
+           2006, Mauricio Piacentini <mauricio@tabuleiro.com>
+           2007-2008, Qtrac Ltd
+           2008-2012, Wolfgang Rohdewald <wolfgang@rohdewald.de>
 License: GPL-2+
 
-Files: doc/index.docbook
-Copyright: 2008 Wolfgang Rohdewald <wolfgang@rohdewald.de>
-License: GFDL-1.2
-
-Files: debian/*
-Copyright: 2012 Jonathan Riddell <jriddell@ubuntu.com>
-License: GPL-2+
+Files: doc/*
+Copyright: 2009-2012, Wolfgang Rohdewald <wolfgang@rohdewald.de>
+License: GFDL-1.2+
 
 Files: cmake-modules/*
-Copyright: 2010 Wolfgang Rohdewald <wolfgang@rohdewald.de>
+Copyright: 2010, Wolfgang Rohdewald <wolfgang@rohdewald.de>
 License: BSD-3-clause
+
+Files: src/modeltest.py
+Copyright: 2007, Trolltech ASA
+           2010-2012, Wolfgang Rohdewald <wolfgang@rohdewald.de>
+License: GPL-2
+
+Files: src/qt4reactor.py
+Copyright: 2001-2008, Twisted Matrix Laboratories
+           2009-2012, Wolfgang Rohdewald <wolfgang@rohdewald.de>
+           2001-2013, Allen Short
+           2001-2013, Andy Gayton
+           2001-2013, Andrew Bennetts
+           2001-2013, Antoine Pitrou
+           2001-2013, Apple Computer, Inc.
+           2001-2013, Benjamin Bruheim
+           2001-2013, Bob Ippolito
+           2001-2013, Canonical Limited
+           2001-2013, Christopher Armstrong
+           2001-2013, David Reid
+           2001-2013, Donovan Preston
+           2001-2013, Eric Mangold
+           2001-2013, Eyal Lotem
+           2001-2013, Itamar Turner-Trauring
+           2001-2013, James Knight
+           2001-2013, Jason A. Mobarak
+           2001-2013, Jean-Paul Calderone
+           2001-2013, Jessica McKellar
+           2001-2013, Jonathan Jacobs
+           2001-2013, Jonathan Lange
+           2001-2013, Jonathan D. Simms
+           2001-2013, Jörgen Hermann
+           2001-2013, Kevin Horn
+           2001-2013, Kevin Turner
+           2001-2013, Mary Gardiner
+           2001-2013, Matthew Lefkowitz
+           2001-2013, Massachusetts Institute of Technology
+           2001-2013, Moshe Zadka
+           2001-2013, Paul Swartz
+           2001-2013, Pavel Pergamenshchik
+           2001-2013, Ralph Meijer
+           2001-2013, Sean Riley
+           2001-2013, Software Freedom Conservancy
+           2001-2013, Travis B. Hartwell
+           2001-2013, Thijs Triemstra
+           2001-2013, Thomas Herve
+           2001-2013, Timothy Allen
+License: Expat
+ Permission is hereby granted, free of charge, to any person obtaining
+ a copy of this software and associated documentation files (the
+ "Software"), to deal in the Software without restriction, including
+ without limitation the rights to use, copy, modify, merge, publish,
+ distribute, sublicense, and/or sell copies of the Software, and to
+ permit persons to whom the Software is furnished to do so, subject to
+ the following conditions:
+ .
+ The above copyright notice and this permission notice shall be
+ included in all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+ LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Files: debian/*
+Copyright: 2007-2013, Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+License: GPL-2+
 
 License: BSD-3-clause
  Redistribution and use in source and binary forms, with or without
@@ -28,12 +94,12 @@ License: BSD-3-clause
  are met:
  .
  1. Redistributions of source code must retain the copyright
-    notice, this list of conditions and the following disclaimer.
+ notice, this list of conditions and the following disclaimer.
  2. Redistributions in binary form must reproduce the copyright
-    notice, this list of conditions and the following disclaimer in the
-    documentation and/or other materials provided with the distribution.
- 3. The name of the author may not be used to endorse or promote products 
-    derived from this software without specific prior written permission.
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ 3. The name of the author may not be used to endorse or promote products
+ derived from this software without specific prior written permission.
  .
  THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
  IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
@@ -60,10 +126,26 @@ License: GPL-2+
  You should have received a copy of the GNU General Public License
  along with this program. If not, see <http://www.gnu.org/licenses/>
  .
- On Debian systems, the complete text of the GNU General
- Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+ On Debian systems, the complete text of the GNU General Public
+ License version 2 can be found in "/usr/share/common-licenses/GPL-2".
 
-License: GFDL-1.2
+License: GPL-2
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License version 2 published by
+ the Free Software Foundation.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General Public
+ License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: GFDL-1.2+
  Permission is granted to copy, distribute and/or modify this document
  under the terms of the GNU Free Documentation License, Version 1.2
  or any later version published by the Free Software Foundation;
@@ -71,5 +153,5 @@ License: GFDL-1.2
  A copy of the license is included in the section entitled "GNU
  Free Documentation License".
  .
- On Debian systems, the complete text of the GNU Free Documentation License
- version 1.2 can be found in "/usr/share/common-licenses/GFDL-1.2".
+ On Debian systems, the complete text of the GNU Free Documentation
+ License version 1.2 can be found in "/usr/share/common-licenses/GFDL-1.2".

@@ -1,0 +1,48 @@
+.TH KAJONGG 6
+.SH NAME
+kajongg \- KDE Mah Jongg
+.SH SYNOPSIS
+.B kajongg
+.I [Qt-options] [KDE-options] [options]
+.SH DESCRIPTION
+.B Kajongg
+is the classical Mah Jongg for four players. If you are looking for the Mah
+Jongg solitaire please use the application kmahjongg.
+.SH OPTIONS
+.TP
+.B \-\-playopen
+All robots play with visible concealed tiles.
+.TP
+.B \-\-autoplay \fI<ruleset>\fB
+Play like a robot using ruleset.
+.TP
+.B \-\-ai \fI<AI>\fB
+Use AI variant for human player in demo mode.
+.TP
+.B \-\-csv \fI<CSV>\fB
+Write statistics to CSV.
+.TP
+.B \-\-rulesets
+Show all available rulesets.
+.TP
+.B \-\-game \fI<seed/hand/discard>\fB
+For testing purposes: Initializes the random generator [0].
+.TP
+.B \-\-nogui
+Show no graphical user interface. Intended only for testing.
+.TP
+.B \-\-socket \fI<SOCKET>\fB
+Use a dedicated server listening on SOCKET. Intended only for testing.
+.TP
+.B \-\-debug \fI<OPTIONS>\fB
+Set debug options. Pass a comma separated list of options.
+Options are: random, chat, sql, explain, deferredBlock, animationSpeed,
+scores, mahJongg, modelTest, traffic, robbingKong, dangerousGame, sound,
+robotAI, handCache, originalCall, animation, focusable.
+Options animation, focusable take a string argument like animation=s3s4
+.so kdeopt.part
+.SH SEE ALSO
+More detailed user documentation is available from
+.BR help:/kajongg
+(either enter this URL into \fBkonqueror\fP, or run `khelpcenter
+help:/kajongg').

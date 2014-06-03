@@ -1,17 +1,20 @@
 #!/usr/bin/make -f
 
-include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
-
 dh = --with=python2
 
+include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
+
 override_dh_auto_configure:
-	$(overridden_command) -- -DBIN_INSTALL_DIR=/usr/games
+	$(overridden_command) -- -DBIN_INSTALL_DIR=/usr/games -DINSTALL_KAJONGG=TRUE
 
 override_dh_auto_install:
-	$(overridden_command)
-	mv debian/kajongg/usr/bin debian/kajongg/usr/games
-
+	$(overridden_command) --destdir=debian/tmp
 
 override_dh_python2:
 	$(overridden_command) -p kajongg /usr/share/kde4/apps/kajongg
 	$(overridden_command) -p kajongg /usr/share/kde4/apps/kajonggserver
+
+generate-icons:
+	while read src dest; do \
+		convert debian/tmp/$$src debian/icons/$$dest; \
+	done <debian/icon-list

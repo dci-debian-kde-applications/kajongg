@@ -1,28 +1,43 @@
 Source: kajongg
-Priority: extra
-Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
-Build-Depends: cmake,
-               debhelper (>= 8.0.0),
-               kdelibs5-dev (>= 4:4.13.0),
-               libkdegames-dev (>= 4:4.13.0),
-               pkg-kde-tools,
-               pkg-config,
-               python-kde4,
-               libsqlite3-dev,
-               python-twisted,
-Standards-Version: 3.9.3
 Section: games
-Homepage: http://www.kde.org
+Priority: optional
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+XSBC-Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Daniel Schepler <schepler@debian.org>,
+           Sune Vuorela <sune@debian.org>,
+           Fathi Boudra <fabo@debian.org>,
+           Modestas Vainius <modax@debian.org>,
+           George Kiagiadakis <gkiagiad@csd.uoc.gr>,
+           Eshat Cakar <info@eshat.de>,
+           Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
+           Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake,
+               debhelper (>= 9),
+               kde-sc-dev-latest (>= 4:4.12),
+               kdelibs5-dev (>= 4:4.11),
+               libkdegames-dev (>= 4:4.11),
+               pkg-kde-tools (>= 0.14),
+               python (>= 2.6.6-3~)
+Standards-Version: 3.9.5
+X-Python-Version: >= 2.6
+XS-Testsuite: autopkgtest
+Homepage: http://games.kde.org/
 Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kajongg
 Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kajongg
+X-Vcs-Debian-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kajongg.git
+X-Vcs-Debian-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kajongg.git
 
 Package: kajongg
 Architecture: all
-Depends: ${python:Depends}, ${misc:Depends}, python-twisted-core (>= 8.2.0),
- python-qt4-sql (>= 4.6), python-kde4 (>= 4.3.0), libsqlite3-0 (>= 3.5.0),
- libqt4-sql-sqlite (>= 4.6), kdegames-mahjongg-data, vorbis-tools, kdegames-data (>= ${source:Upstream-Version})
-Breaks: kdegames-mahjongg-data (<< 4:4.9.90)
-Replaces: kdegames-mahjongg-data (<< 4:4.9.90)
+Depends: kdegames-mahjongg-data (>= 4:4.10),
+         libqt4-sql-sqlite (>= 4.6),
+         python-kde4 (>= 4:4.3.0),
+         python-qt4-sql (>= 4.6),
+         python-twisted-core (>= 8.2.0),
+         vorbis-tools,
+         ${misc:Depends},
+         ${python:Depends}
+Recommends: khelpcenter4
 Description: classical Mah Jongg game
  This is the classical Mah Jongg for four players.
  If you are looking for the Mah Jongg solitaire please use the application
