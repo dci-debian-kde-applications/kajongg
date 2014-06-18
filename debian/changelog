@@ -6,6 +6,7 @@ kajongg (4:4.13.2-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Jonathan Riddell ]
   * new upstream release
+  * Remove upstream_install_missing_files.diff now upstream
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 18 Jun 2014 11:42:29 +0100
 
