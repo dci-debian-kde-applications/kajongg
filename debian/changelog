@@ -1,9 +1,13 @@
-kajongg (4:4.13.1-1ubuntu1) UNRELEASED; urgency=medium
+kajongg (4:4.13.2-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Rohan Garg ]
   * Merge with debian, no remaining changes
   * Add upstream_install_missing_files.diff to install qt.py, qt4.py and qt5.py
 
- -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 03 Jun 2014 18:41:43 +0200
+  [ Jonathan Riddell ]
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 18 Jun 2014 11:42:29 +0100
 
 kajongg (4:4.13.1-1) unstable; urgency=medium
 
