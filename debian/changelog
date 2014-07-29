@@ -4,11 +4,47 @@ kajongg (4:4.13.2-1) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Jul 2014 16:48:29 +0200
 
+kajongg (4:4.13.2-0ubuntu1) utopic; urgency=medium
+
+  [ Rohan Garg ]
+  * Merge with debian, no remaining changes
+  * Add upstream_install_missing_files.diff to install qt.py, qt4.py and qt5.py
+
+  [ Jonathan Riddell ]
+  * new upstream release
+  * Remove upstream_install_missing_files.diff now upstream
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 18 Jun 2014 11:42:29 +0100
+
 kajongg (4:4.13.1-1) unstable; urgency=medium
 
   * New upstream release.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 23 May 2014 09:23:31 +0200
+
+kajongg (4:4.13.0-0ubuntu1) trusty; urgency=medium
+
+  * New upstream KDE Software Compilation release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 10 Apr 2014 21:37:53 +0100
+
+kajongg (4:4.12.97-0ubuntu1) trusty; urgency=medium
+
+  * New upstream release candidate
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Wed, 02 Apr 2014 11:09:27 +0200
+
+kajongg (4:4.12.95-0ubuntu1) trusty; urgency=medium
+
+  * New upstream beta release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Sun, 23 Mar 2014 11:56:01 +0100
+
+kajongg (4:4.12.90-0ubuntu1) trusty; urgency=medium
+
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 19 Mar 2014 10:36:05 +0000
 
 kajongg (4:4.12.4-1) unstable; urgency=medium
 
@@ -22,6 +58,12 @@ kajongg (4:4.12.3-1) experimental; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Mar 2014 00:06:35 +0100
 
+kajongg (4:4.12.3-0ubuntu1) trusty; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 04 Mar 2014 20:28:47 +0100
+
 kajongg (4:4.12.2-1) experimental; urgency=medium
 
   * Do not disable an empty test set.
@@ -31,6 +73,48 @@ kajongg (4:4.12.2-1) experimental; urgency=medium
   * Bump kde-sc-dev-latest build dependency.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 10 Feb 2014 11:32:36 +0100
+
+kajongg (4:4.12.2-0ubuntu1) trusty; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 04 Feb 2014 23:37:21 +0000
+
+kajongg (4:4.12.1-0ubuntu2) trusty; urgency=medium
+
+  * Make sure files in the private dir are compiled (LP: #649721)
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Thu, 23 Jan 2014 08:55:50 +0100
+
+kajongg (4:4.12.1-0ubuntu1) trusty; urgency=low
+
+  * New upstream bugfix release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Thu, 16 Jan 2014 07:56:55 +0000
+
+kajongg (4:4.12.0-0ubuntu1) trusty; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 18 Dec 2013 16:25:38 +0000
+
+kajongg (4:4.11.97-0ubuntu1) trusty; urgency=low
+
+  * New upstream RC release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 29 Nov 2013 12:31:52 +0000
+
+kajongg (4:4.11.95-0ubuntu1) trusty; urgency=low
+
+  * New upstream beta release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Mon, 25 Nov 2013 17:43:29 +0100
+
+kajongg (4:4.11.80-0ubuntu1) trusty; urgency=low
+
+  * New upstream beta release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Sat, 23 Nov 2013 17:27:09 +0100
 
 kajongg (4:4.11.3-1) unstable; urgency=low
 
@@ -45,6 +129,63 @@ kajongg (4:4.11.2-1) experimental; urgency=low
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 07 Oct 2013 15:29:49 +0200
 
+kajongg (4:4.11.2-0ubuntu1) saucy; urgency=low
+
+  * New upstream bugfix release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 30 Sep 2013 13:57:45 +0100
+
+kajongg (4:4.11.1-0ubuntu1) saucy; urgency=low
+
+  * New upstream bugfix release.
+
+ -- Howard Chan <smartboyhw@gmail.com>  Fri, 06 Sep 2013 22:05:40 +0100
+
+kajongg (4:4.11.0-0ubuntu1) saucy; urgency=low
+
+  [ Howard Chan ]
+  * New upstream release
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 13 Aug 2013 23:57:51 +0100
+
+kajongg (4:4.10.97-0ubuntu1) saucy; urgency=low
+
+  * New upstream RC 2 release
+  * New upstream RC 2 release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 26 Jul 2013 19:05:24 +0100
+
+kajongg (4:4.10.95-0ubuntu1) saucy; urgency=low
+
+  [ Rohan Garg ]
+  * New upstream RC release
+
+  [ Philip Muškovac ]
+  * Move binaries from /usr/bin to /usr/games by hand as dh_python2 ignores
+    BIN_INSTALL_DIR
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 19 Jul 2013 12:31:48 +0000
+
+kajongg (4:4.10.90-0ubuntu1) saucy; urgency=low
+
+  * New upstream bet release
+
+ -- Michał Zając <quintasan@kubuntu.org>  Fri, 28 Jun 2013 17:59:16 +0100
+
+kajongg (4:4.10.80-0ubuntu1) saucy; urgency=low
+
+  [ Rohan Garg ]
+  * New upstream release
+
+  [ Jonathan Riddell ]
+  * Use --with=python2
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 21 Jun 2013 00:46:37 +0100
+
 kajongg (4:4.10.5-1) unstable; urgency=low
 
   * New upstream release.
@@ -57,6 +198,19 @@ kajongg (4:4.10.4-1) experimental; urgency=low
   * Update vcs fields.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 14 Jun 2013 16:33:45 +0200
+
+kajongg (4:4.10.4-0ubuntu2) saucy; urgency=low
+
+  * Depend on kdegames-mahjongg-data instead of libkmahjongglib-data which
+    doesn't exist anymore (LP: #1189431)
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Mon, 10 Jun 2013 14:34:52 +0200
+
+kajongg (4:4.10.4-0ubuntu1) saucy-proposed; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 06 Jun 2013 23:35:40 +0100
 
 kajongg (4:4.10.2-2) experimental; urgency=low
 
@@ -73,3 +227,54 @@ kajongg (4:4.10.2-1) experimental; urgency=low
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 08 Apr 2013 13:40:32 +0200
 
+kajongg (4:4.10.2-0ubuntu1) raring; urgency=low
+
+  * New upstream bugfix release
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sun, 31 Mar 2013 14:36:26 +0200
+
+kajongg (4:4.10.1-0ubuntu1) raring-proposed; urgency=low
+
+  * New upstream bugfix release
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Tue, 05 Mar 2013 15:13:06 +0000
+
+kajongg (4:4.10.0-0ubuntu1) raring-proposed; urgency=low
+
+  * New upstream release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Wed, 06 Feb 2013 11:31:06 +0000
+
+kajongg (4:4.9.98-0ubuntu1) raring-proposed; urgency=low
+
+  * New upstream release candidate
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 18 Jan 2013 14:56:46 +0000
+
+kajongg (4:4.9.97-0ubuntu1) raring; urgency=low
+
+  * New upstream release candidate
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Thu, 03 Jan 2013 22:24:17 +0100
+
+kajongg (4:4.9.95-0ubuntu1) raring; urgency=low
+
+  * Install to /usr/games
+  * Version dependency on kdegames-data
+  * New upstream RC release
+  * Add kubuntu_01_licence_file.diff from upstream
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Dec 2012 23:15:58 +0000
+
+kajongg (4:4.9.90-0ubuntu2) raring; urgency=low
+
+  * Add breaks/replaces against kdegames-mahjongg-data << 4:4.9.90
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sat, 08 Dec 2012 21:06:57 +0100
+
+kajongg (4:4.9.90-0ubuntu1) raring-proposed; urgency=low
+
+  * Initial release
+  * Add build-deps on runtime dependencies, needed to install
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 07 Dec 2012 17:36:05 +0000
