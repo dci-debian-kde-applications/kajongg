@@ -1,3 +1,7 @@
+kajongg (4:4.14.1-1.1) UNRELEASED; urgency=medium
+
+ -- Debian/Ubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 25 Oct 2014 17:01:14 -0300
+
 kajongg (4:4.14.1-1) unstable; urgency=medium
 
   * New upstream release.
