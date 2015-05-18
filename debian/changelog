@@ -1,12 +1,13 @@
-kajongg (4:15.04.0-1~) UNRELEASED; urgency=medium
+kajongg (4:15.04.1-1~) UNRELEASED; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Remove myself from Uploaders.
 
   [ Maximiliano Curia ]
   * New upstream release (15.04.0).
+  * New upstream release (15.04.1).
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Apr 2015 16:30:02 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 18 May 2015 14:18:12 +0200
 
 kajongg (4:4.14.1-1) unstable; urgency=medium
 
