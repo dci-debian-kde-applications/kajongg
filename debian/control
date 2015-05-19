@@ -16,7 +16,8 @@ Build-Depends: cmake,
                kdelibs5-dev (>= 4:4.11),
                libkdegames-dev (>= 4:4.11),
                pkg-kde-tools (>= 0.14),
-               python (>= 2.6.6-3~)
+               python (>= 2.6.6-3~),
+               python-twisted-core
 Standards-Version: 3.9.5
 X-Python-Version: >= 2.6
 XS-Testsuite: autopkgtest
