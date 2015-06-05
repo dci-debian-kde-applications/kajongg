@@ -1,4 +1,4 @@
-kajongg (4:15.04.1-0ubuntu1) UNRELEASED; urgency=medium
+kajongg (4:15.04.2-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * New upstream release
@@ -11,7 +11,10 @@ kajongg (4:15.04.1-0ubuntu1) UNRELEASED; urgency=medium
   * Fix install file. 
   * Remove the old install entry. 
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 13 May 2015 21:12:39 -0700
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 06 Jun 2015 00:46:48 +0200
 
 kajongg (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
