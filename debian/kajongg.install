@@ -2,6 +2,7 @@
 ../icons/kajongg.xpm /usr/share/pixmaps
 usr/games/kajongg
 usr/games/kajonggserver
+usr/share/appdata/kajongg.appdata.xml
 usr/share/applications/kde4/kajongg.desktop
 usr/share/doc/kde/HTML/en/kajongg/*
 usr/share/icons/hicolor/128x128/apps/kajongg.png

@@ -1,8 +1,7 @@
 Source: kajongg
 Section: games
 Priority: optional
-Maintainer: Debian/Ubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-X-Ubuntu-Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Daniel Schepler <schepler@debian.org>,
            Sune Vuorela <sune@debian.org>,
            Fathi Boudra <fabo@debian.org>,
@@ -13,18 +12,18 @@ Uploaders: Daniel Schepler <schepler@debian.org>,
 Build-Depends: cmake,
                debhelper (>= 9),
                kde-sc-dev-latest (>= 4:4.12),
-               kdelibs5-dev (>= 4:4.11),
-               libkdegames-dev (>= 4:4.11),
+               kdelibs5-dev,
+               libkdegames-dev,
+               libsqlite3-dev,
+               pkg-config,
                pkg-kde-tools (>= 0.14),
                python (>= 2.6.6-3~),
                python-twisted-core
-Standards-Version: 3.9.5
+               python (>= 2.6.6-3~)
 X-Python-Version: >= 2.6
 Homepage: http://games.kde.org/
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kajongg.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kajongg.git
-X-Ubuntu-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kajongg
-X-Ubuntu-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kajongg
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/kajongg.git/
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/kajongg.git
 
 Package: kajongg
 Architecture: all
@@ -36,7 +35,7 @@ Depends: kdegames-mahjongg-data (>= 4:4.10),
          vorbis-tools,
          ${misc:Depends},
          ${python:Depends}
-Recommends: khelpcenter4
+Recommends: khelpcenter
 Description: classical Mah Jongg game
  This is the classical Mah Jongg for four players.
  If you are looking for the Mah Jongg solitaire please use the application
