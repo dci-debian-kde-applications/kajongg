@@ -8,7 +8,7 @@ kajongg (4:15.08.2-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Vivid backport
-  * Vivid backport
+  * Fix changelog. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 16 Oct 2015 21:57:00 -0700
 
