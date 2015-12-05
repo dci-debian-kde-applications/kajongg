@@ -1,5 +1,13 @@
-kajongg (4:15.08.3-1) wily; urgency=medium
+kajongg (4:15.08.3-1) unstable; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Remove myself from Uploaders.
+
+  [ Maximiliano Curia ]
+  * New upstream release (15.04.0).
+  * New upstream release (15.04.1).
+  * New upstream release (15.04.2).
+  * New upstream release (15.04.3).
   * New upstream release (15.08.3).
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 02 Dec 2015 12:40:03 +0100
@@ -17,19 +25,6 @@ kajongg (4:15.07.90-0ubuntu1) wily; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Aug 2015 09:31:04 +0100
 
-kajongg (4:15.04.3-1~) UNRELEASED; urgency=medium
-
-  [ Lisandro Damián Nicanor Pérez Meyer ]
-  * Remove myself from Uploaders.
-
-  [ Maximiliano Curia ]
-  * New upstream release (15.04.0).
-  * New upstream release (15.04.1).
-  * New upstream release (15.04.2).
-  * New upstream release (15.04.3).
-
- -- Maximiliano Curia <maxy@debian.org>  Fri, 03 Jul 2015 16:26:16 +0200
-
 kajongg (4:15.04.2-0ubuntu1) wily; urgency=medium
 
   [ Scarlett Clark ]
@@ -39,9 +34,9 @@ kajongg (4:15.04.2-0ubuntu1) wily; urgency=medium
   * Update install file.
 
   [ Scarlett Clark ]
-  * kde4 games need to depend on 14.12 series libkdegames.  
-  * Fix install file. 
-  * Remove the old install entry. 
+  * kde4 games need to depend on 14.12 series libkdegames.
+  * Fix install file.
+  * Remove the old install entry.
 
   [ Jonathan Riddell ]
   * New upstream release
@@ -79,14 +74,14 @@ kajongg (4:14.11.97-0ubuntu1) vivid; urgency=medium
 
 kajongg (4:14.11.95-0ubuntu2) vivid; urgency=medium
 
-  * Fix Watch file applications locations 
-  * Fix VCS for new kde-applications location 
+  * Fix Watch file applications locations
+  * Fix VCS for new kde-applications location
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 24 Nov 2014 09:30:15 -0800
 
 kajongg (4:14.11.95-0ubuntu1) vivid; urgency=medium
 
-  * Initial release for KDE applications 14.12 series 
+  * Initial release for KDE applications 14.12 series
    - Change maintainer to Debian/Kubuntu
    - Removed VCS bzr no longer applicable.
   * Debian merge, remaining changes:
@@ -346,7 +341,7 @@ kajongg (4:4.10.4-1) experimental; urgency=low
 kajongg (4:4.10.4-0ubuntu2) saucy; urgency=low
 
   * Depend on kdegames-mahjongg-data instead of libkmahjongglib-data which
-    doesn't exist anymore (LP: #1189431) 
+    doesn't exist anymore (LP: #1189431)
 
  -- Philip Muškovac <yofel@kubuntu.org>  Mon, 10 Jun 2013 14:34:52 +0200
 
@@ -412,7 +407,7 @@ kajongg (4:4.9.95-0ubuntu1) raring; urgency=low
 
 kajongg (4:4.9.90-0ubuntu2) raring; urgency=low
 
-  * Add breaks/replaces against kdegames-mahjongg-data << 4:4.9.90 
+  * Add breaks/replaces against kdegames-mahjongg-data << 4:4.9.90
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sat, 08 Dec 2012 21:06:57 +0100
 
