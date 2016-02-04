@@ -13,8 +13,3 @@ override_dh_auto_install:
 override_dh_python2:
 	$(overridden_command) -p kajongg /usr/share/kde4/apps/kajongg
 	$(overridden_command) -p kajongg /usr/share/kde4/apps/kajonggserver
-
-generate-icons:
-	while read src dest; do \
-		convert debian/tmp/$$src debian/icons/$$dest; \
-	done <debian/icon-list
