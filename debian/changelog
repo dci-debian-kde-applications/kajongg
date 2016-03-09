@@ -1,9 +1,9 @@
-kajongg (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
+kajongg (4:15.12.1-0ubuntu1) xenial; urgency=medium
 
   * New upstream release.
   * Debian Merge: No remaining changes.
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 29 Jan 2016 06:30:19 -0800
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 09 Mar 2016 10:26:44 +0100
 
 kajongg (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
