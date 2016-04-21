@@ -1,10 +1,11 @@
-kajongg (4:15.12.1-2~1.gbp00a386) UNRELEASED; urgency=medium
+kajongg (4:16.04.0-1~1.gbp810c7a) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @00a386c7af336671a473d6592ba1832f5b6b829d **
+  ** SNAPSHOT build @810c7a847b6b9a6626564fea23021c4ac53e5633 **
 
   * Bump Standards-Version to 3.9.8
+  * Add a .gitattributes file to use dpkg-mergechangelogs
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 11:47:59 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 02:47:17 +0200
 
 kajongg (4:15.12.1-1) experimental; urgency=medium
 
