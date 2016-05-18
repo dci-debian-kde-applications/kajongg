@@ -1,3 +1,9 @@
+kajongg (4:16.04.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 18 May 2016 18:12:11 +0200
+
 kajongg (4:16.04.0-1~1.gbp810c7a) UNRELEASED; urgency=medium
 
   ** SNAPSHOT build @810c7a847b6b9a6626564fea23021c4ac53e5633 **
