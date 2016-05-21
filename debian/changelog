@@ -1,10 +1,6 @@
-kajongg (4:16.04.0-1~2.gbpd41b06) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @d41b06fa4b60e2c06c56867c4a6a5446ce9f8874 **
+kajongg (4:16.04.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @810c7a847b6b9a6626564fea23021c4ac53e5633 **
-
   * Bump Standards-Version to 3.9.8
   * Add a .gitattributes file to use dpkg-mergechangelogs
 
@@ -13,7 +9,7 @@ kajongg (4:16.04.0-1~2.gbpd41b06) UNRELEASED; urgency=medium
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 11:47:18 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 21 May 2016 16:35:45 +0200
 
 kajongg (4:15.12.1-1) experimental; urgency=medium
 
