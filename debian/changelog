@@ -1,10 +1,11 @@
-kajongg (4:16.08.1-1~1.gbpfcf405) UNRELEASED; urgency=medium
+kajongg (4:16.08.3-1~1.gbp0b4ed6) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @fcf40543064373b0ef270fe26ebcdcfb32e261e6 **
+  ** SNAPSHOT build @0b4ed6014aeeac380193675f4a0244a93e7c86d7 **
 
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 08 Sep 2016 20:47:38 +0200
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 10 Nov 2016 20:47:17 +0100
 
 kajongg (4:16.04.0-1) unstable; urgency=medium
 
