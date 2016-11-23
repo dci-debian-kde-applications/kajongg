@@ -1,11 +1,8 @@
-kajongg (4:16.08.3-1~1.gbp0b4ed6) UNRELEASED; urgency=medium
+kajongg (4:16.08.3-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @0b4ed6014aeeac380193675f4a0244a93e7c86d7 **
+  * New upstream release (16.08.3)
 
-  * UNRELEASED
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 10 Nov 2016 20:47:17 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 23 Nov 2016 20:54:41 +0100
 
 kajongg (4:16.04.0-1) unstable; urgency=medium
 
