@@ -1,2 +1,2 @@
 Fix-icons-path.patch
-don-t-set-the-prefix-twice.patch
+Use-DESTDIR-on-install.patch

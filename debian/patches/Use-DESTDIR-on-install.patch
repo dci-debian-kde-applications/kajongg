@@ -1,0 +1,34 @@
+From: Maximiliano Curia <maxy@gnuservers.com.ar>
+Date: Mon, 4 Sep 2017 22:46:32 +0200
+Subject: Use DESTDIR on install
+
+---
+ cmake-modules/KDEPython.cmake | 12 ++++++------
+ 1 file changed, 6 insertions(+), 6 deletions(-)
+
+diff --git a/cmake-modules/KDEPython.cmake b/cmake-modules/KDEPython.cmake
+index d494036..d4cce34 100644
+--- a/cmake-modules/KDEPython.cmake
++++ b/cmake-modules/KDEPython.cmake
+@@ -104,15 +104,15 @@ MACRO(KDE_ADD_PYTHON_EXECUTABLE _pyname _exename)
+     endif(NOT PROJECT_NAME)
+ 
+     set(TARGET ${CMAKE_INSTALL_PREFIX}/${DATA_INSTALL_DIR}/${PROJECT_NAME}/${_pyname})
+-    set(LINK_NAME ${CMAKE_INSTALL_PREFIX}/${BIN_INSTALL_DIR}/${_exename})
++    set(LINK_NAME ${BIN_INSTALL_DIR}/${_exename})
+ 
+-    GET_FILENAME_COMPONENT(abs_link_name $ENV{DESTDIR}/${LINK_NAME} ABSOLUTE)
+-    GET_FILENAME_COMPONENT(link_path $ENV{DESTDIR}/${LINK_NAME} PATH)
++    GET_FILENAME_COMPONENT(abs_link_name ${LINK_NAME} ABSOLUTE)
++    GET_FILENAME_COMPONENT(link_path ${LINK_NAME} PATH)
+     GET_FILENAME_COMPONENT(abs_link_path ${link_path} ABSOLUTE)
+-    FILE(MAKE_DIRECTORY ${abs_link_path})
+     GET_FILENAME_COMPONENT(abs_target ${TARGET} ABSOLUTE)
+ 
+-    INSTALL(CODE "EXECUTE_PROCESS(COMMAND ${CMAKE_COMMAND} -E create_symlink ${abs_target} ${abs_link_name})")
+-    INSTALL(CODE "EXECUTE_PROCESS(COMMAND chmod a+x $ENV{DESTDIR}/${abs_target})")
++    INSTALL(CODE "FILE(MAKE_DIRECTORY \$ENV{DESTDIR}/${abs_link_path})")
++    INSTALL(CODE "EXECUTE_PROCESS(COMMAND ${CMAKE_COMMAND} -E create_symlink ${abs_target} \$ENV{DESTDIR}/${abs_link_name})")
++    INSTALL(CODE "EXECUTE_PROCESS(COMMAND chmod a+x \$ENV{DESTDIR}/${abs_target})")
+ 
+ ENDMACRO(KDE_ADD_PYTHON_EXECUTABLE)
