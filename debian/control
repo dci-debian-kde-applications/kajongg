@@ -35,6 +35,8 @@ Architecture: all
 Depends: kdegames-mahjongg-data (>= 4:4.10),
          ${misc:Depends},
          ${python3:Depends},
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Recommends: khelpcenter
 Description: classical Mah Jongg game
  This is the classical Mah Jongg for four players.
