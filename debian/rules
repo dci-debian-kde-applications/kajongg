@@ -9,8 +9,11 @@
 #	dh_python3 --remaining-packages
 
 
-%:
-	dh $@ --with kf5 --buildsystem kf5 --with python3
+export PYBUILD_SYSTEM=distutils
 
-override_dh_auto_configure:
-	dh_auto_configure -- -DBIN_INSTALL_DIR=/usr/games
+%:
+	dh $@ --with python3 --buildsystem pybuild
+
+override_dh_auto_clean:
+	-dh_auto_clean
+	-rm .pybuild/pythonX.Y_3.5/.pydistutils.cfg
