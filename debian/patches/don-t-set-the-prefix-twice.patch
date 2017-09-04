@@ -1,0 +1,23 @@
+From: Maximiliano Curia <maxy@gnuservers.com.ar>
+Date: Mon, 4 Sep 2017 22:46:32 +0200
+Subject: don't set the prefix twice
+
+---
+ cmake-modules/KDEPython.cmake | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/cmake-modules/KDEPython.cmake b/cmake-modules/KDEPython.cmake
+index d494036..e97e9ac 100644
+--- a/cmake-modules/KDEPython.cmake
++++ b/cmake-modules/KDEPython.cmake
+@@ -103,8 +103,8 @@ MACRO(KDE_ADD_PYTHON_EXECUTABLE _pyname _exename)
+          MESSAGE(STATUS "Project name is necessary to create symlink against python program!!! It will fail.")
+     endif(NOT PROJECT_NAME)
+ 
+-    set(TARGET ${CMAKE_INSTALL_PREFIX}/${DATA_INSTALL_DIR}/${PROJECT_NAME}/${_pyname})
+-    set(LINK_NAME ${CMAKE_INSTALL_PREFIX}/${BIN_INSTALL_DIR}/${_exename})
++    set(TARGET ${DATA_INSTALL_DIR}/${PROJECT_NAME}/${_pyname})
++    set(LINK_NAME ${BIN_INSTALL_DIR}/${_exename})
+ 
+     GET_FILENAME_COMPONENT(abs_link_name $ENV{DESTDIR}/${LINK_NAME} ABSOLUTE)
+     GET_FILENAME_COMPONENT(link_path $ENV{DESTDIR}/${LINK_NAME} PATH)
