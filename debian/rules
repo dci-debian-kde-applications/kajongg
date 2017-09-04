@@ -11,7 +11,6 @@ override_dh_auto_configure:
 
 override_dh_python3:
 	dh_python3 -p kajongg /usr/share/kajongg
-	dh_python3 --remaining-packages
 
 override_dh_gencontrol: l10npkgs_firstversion_ok
 	dh_gencontrol
