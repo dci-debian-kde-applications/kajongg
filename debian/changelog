@@ -1,3 +1,10 @@
+kajongg (4:17.08.0-1~) UNRELEASED; urgency=medium
+
+  * Update Vcs fields
+  * New upstream release (17.08.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 04 Sep 2017 18:09:28 +0200
+
 kajongg (4:16.08.3-1) unstable; urgency=medium
 
   * New upstream release (16.08.3)
