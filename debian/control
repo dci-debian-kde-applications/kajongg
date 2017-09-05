@@ -32,7 +32,9 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kajongg.git
 
 Package: kajongg
 Architecture: all
-Depends: kdegames-mahjongg-data (>= 4:4.10),
+Depends: kdegames-mahjongg-data-kf5,
+         python3-pyqt5.qtsvg,
+         python3-twisted (>= 16.6.0~),
          ${misc:Depends},
          ${python3:Depends},
 Breaks: ${kde-l10n:all}
