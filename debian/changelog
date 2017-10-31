@@ -1,9 +1,22 @@
-kajongg (4:17.08.0-1~) UNRELEASED; urgency=medium
+kajongg (4:17.08.0-1~1) UNRELEASED; urgency=medium
 
   * Update Vcs fields
   * New upstream release (17.08.0).
+  * Update watch file, add upstream signature
+  * Update build-deps and deps with the info from cmake
+  * Maybe it's supposed be build using the setup.py
+  * Add patch: Fix-icons-path.patch
+  * Let's try again with cmake
+  * Add patch: don-t-set-the-prefix-twice.patch
+  * Bump Standards-Version to 4.1.0.
+  * Update upstream metadata
+  * Add missing breaks/replaces against the kde-l10n packages
+  * Install manpages without soelim
+  * Rediff patches
+  * Update runtime dependencies
+  * Update uploaders list as requested by MIA team (Closes: #879308)
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 04 Sep 2017 18:09:28 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 31 Oct 2017 17:58:45 +0100
 
 kajongg (4:16.08.3-1) unstable; urgency=medium
 
