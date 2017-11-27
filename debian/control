@@ -38,7 +38,7 @@ Depends: kdegames-mahjongg-data-kf5,
          ${python3:Depends},
 Breaks: ${kde-l10n:all}
 Replaces: ${kde-l10n:all}
-Recommends: khelpcenter
+Recommends: khelpcenter, vorbis-tools
 Description: classical Mah Jongg game
  This is the classical Mah Jongg for four players.
  If you are looking for the Mah Jongg solitaire please use the application
