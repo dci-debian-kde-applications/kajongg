@@ -12,7 +12,6 @@ kajongg (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * Bump Standards-Version to 4.1.0.
   * Update upstream metadata
   * Add missing breaks/replaces against the kde-l10n packages
-  * Install manpages without soelim
   * Rediff patches
   * Update runtime dependencies
   * Update uploaders list as requested by MIA team (Closes: #879308)
@@ -25,6 +24,8 @@ kajongg (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * Remove unused appstream and libkf5kdelibs4support5-bin build dependencies.
   * Switch the BIN_INSTALL_DIR cmake variable to KDE_INSTALL_BINDIR.
   * Drop debian/not-installed, no more useful now.
+  * Drop Debian-only man page altogether: upstream does not provide any, and
+    our versions are not properly kept up-to-date. (Closes: #883727)
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Oct 2017 17:58:45 +0100
 
