@@ -2,7 +2,8 @@ kajongg (4:17.08.3-0r1) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * Update Vcs fields
-  * New upstream release (17.08.0).
+  * New upstream release (17.08.0):
+    - switches to PyQt5 (Closes: #874924, #864965)
   * Update watch file, add upstream signature
   * Update build-deps and deps with the info from cmake
   * Maybe it's supposed be build using the setup.py
